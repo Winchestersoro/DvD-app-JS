@@ -1,0 +1,62 @@
+.outer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.inner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.inter {
+  background-color: #FFCC00;
+  color: #FFF;
+  padding: 10px 20px;
+  border: 2px solid #FFCC00;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.frame {
+  background-color: #FFF;
+  color: #FFCC00;
+  padding: 10px 20px;
+  border: 2px solid #FFCC00;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 500px; /* Уменьшим высоту */
+  width: 1300px;
+  border: 2px solid #FFCC00;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto; /* Центрирование по горизонтали и отступ сверху */
+}
+
+.block {
+  width: 50px;
+  height: 50px;
+  background-color: #FFCC00;
+  color: #FFF;
+  border: 2px solid #FFCC00;
+  border-radius: 5px;
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
